@@ -12,6 +12,7 @@ Create a Camera Folder structure. For example for XAMPP: `C:\xampp\htdocs\swf\ca
 
 Change your external_variables to the following:
 `navigator.thumbnail.url_base=https://mydomain.com/swf/camera/thumbnails/
+
 stories.image_url_base=https://mydomain.com/swf/camera/`
 
 
@@ -28,8 +29,11 @@ Go to your Database and open the `emulator_config` table.
 Then edit the following:
 
 `camera.url = https://mydomain.com/swf/camera/`
+
 `imager.location.output.camera = C:\xampp\htdocs\swf\camera\`
+
 `imager.location.output.thumbnail = C:\xampp\htdocs\swf\camera\thumbnails\`
+
 `camera.enabled = 1`
 
 `interaction_type` should be set to `external_image_png` for Camera Pic and Habbo Selfie and `interaction_modes_count` set to `0` in the `items_base` table.
