@@ -18,7 +18,7 @@ For example:
 * Notification when one of your marketplace offers is bought.
 * Notification when you get mentioned in a different room, click to visit.
 
-![alt text][logo]
+![Plugin Preview][preview]
 
 ---
 
@@ -57,4 +57,4 @@ BubbleAlerts requires no database modification / SQL queries. The plugin may aut
 
 This plugin has not been verified by TheGeneral/Wesley12312. Use this at your own risk. Always remember to make backups of your database before installation of third-party plugins.
 
-[logo]: https://uploadir.com/u/rz6m9bnx "Plugin Preview"
+[preview]: https://raw.githubusercontent.com/BrainCMS/Arcturus-Plugins/master/BubbleAlerts/preview.png "Plugin Preview"
