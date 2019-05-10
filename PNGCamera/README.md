@@ -2,7 +2,7 @@
 
 PNGCamera is an Arcturus Plugin by Harmonic.
 
-Installing a plugin is simple! Simply place the `PNGCamera-1.3.jar` file into your `/plugins` folder.
+Installing a plugin is simple! Simply place the `PNGCam-1.3.jar` file into your `/plugins` folder.
 
 Remember once adding a Plugin you'll need to reboot Arcturus Emulator. Don't forget to give yourself (and sometimes users) permission to use any command, this can be done via your database `permissions` table via `acc_camera`.
 
@@ -11,9 +11,11 @@ Remember once adding a Plugin you'll need to reboot Arcturus Emulator. Don't for
 Create a Camera Folder structure. For example for XAMPP: `C:\xampp\htdocs\swf\camera` and `C:\xampp\htdocs\swf\camera\thumbnails`
 
 Change your external_variables to the following:
-`navigator.thumbnail.url_base=https://mydomain.com/swf/camera/thumbnails/
+`navigator.thumbnail.url_base=https://mydomain.com/swf/camera/thumbnails/``
 
-stories.image_url_base=https://mydomain.com/swf/camera/`
+`stories.image_url_base=https://mydomain.com/swf/camera/`
+
+Download the required [Habbo.swf](http://www.mediafire.com/file/s1b9r875b38sof5/newpng.swf/file).
 
 
 ---
@@ -24,7 +26,7 @@ Launch Arcturus
 
 Once Arcturus is open type `stop` to close, we do this to import the needed SQL modifications.
 
-Go to your Database and open the `emulator_config` table.
+Go to your Database and open the `emulator_settings` table.
 
 Then edit the following:
 

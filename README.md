@@ -16,7 +16,7 @@ Remember once adding a Plugin you'll need to reboot Arcturus Emulator. Don't for
 | [ExportRooms](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/ExportRooms)       | TheGeneral       | Export and Import rooms to share them owners                | v1  | 16.49 KB | [Homepage][4] | -    |
 | [FurniData](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/FurniData)       | ArpyAge       | `:furnidata`                              | v1.1  | 9 KB | Unknown  | v1.16.0  |
 | [KickWars](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/KickWars)       | TheGeneral       | No description provided.                              | v1  | 1.77 KB | [Homepage][5]  | v1.16.0  |
-| [PNGCamera](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/PNGCamera)       | Harmonic      | In-game Habbo Camera  | v1.3  | 14 KB | [Homepage][6]  | v1.16.0  |
+| [PNGCamera](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/PNGCamera)       | Harmonic      | In-game Habbo Camera  | v1.3  | 15 KB | [Homepage][6]  | v1.17.0  |
 | [TollGates](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/TollGates)       | Brandon       | `:settoll <currency_type> <amount>`       | v1.0     | 12.4 KB | [Homepage][7] | v1.16.0  |
 | [TpToMe](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/TpToMe)             | ArpyAge       | `:tp <username>` or `:tptome <username>`     | Unknown  | 6.65 KB | Unknown  | v1.16.0  |
 | [UnIdle](https://github.com/BrainCMS/Arcturus-Plugins/tree/master/UnIdle)             | TheGeneral       | Unidle when you click on yourself.     | v1  | 2.87 KB | [Homepage][8]  | v1.16.0  |
