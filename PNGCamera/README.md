@@ -4,16 +4,18 @@ PNGCamera is an Arcturus Plugin by Harmonic.
 
 Installing a plugin is simple! Simply place the `PNGCam-1.3.jar` file into your `/plugins` folder.
 
-Remember once adding a Plugin you'll need to reboot Arcturus Emulator. Don't forget to give yourself (and sometimes users) permission to use any command, this can be done via your database `permissions` table via `acc_camera`.
+Remember once adding a Plugin you'll need to reboot Arcturus Emulator. Don't forget to give yourself (and sometimes users) permission to use any command, this can be done via your database `permissions` table via `acc_camera` set to `1`.
 
 ---
 
-Create a Camera Folder structure. For example for XAMPP: `C:\xampp\htdocs\swf\camera` and `C:\xampp\htdocs\swf\camera\thumbnails`
+Create a Camera Folder structure.
 
-Change your external_variables to the following:
-`navigator.thumbnail.url_base=https://mydomain.com/swf/camera/thumbnails/``
+XAMPP Example:\
+`C:\xampp\htdocs\swfs\camera` and `C:\xampp\htdocs\swfs\camera\thumbnails`
 
-`stories.image_url_base=https://mydomain.com/swf/camera/`
+Change your external_variables to the following:\
+`navigator.thumbnail.url_base=https://mydomain.com/swfs/camera/thumbnails/`\
+`stories.image_url_base=https://mydomain.com/swfs/camera/`
 
 Download the required [Habbo.swf](http://www.mediafire.com/file/s1b9r875b38sof5/newpng.swf/file).
 
@@ -30,11 +32,11 @@ Go to your Database and open the `emulator_settings` table.
 
 Then edit the following:
 
-`camera.url = https://mydomain.com/swf/camera/`
+`camera.url = https://mydomain.com/swfs/camera/`
 
-`imager.location.output.camera = C:\xampp\htdocs\swf\camera\`
+`imager.location.output.camera = C:\xampp\htdocs\swfs\camera\`
 
-`imager.location.output.thumbnail = C:\xampp\htdocs\swf\camera\thumbnails\`
+`imager.location.output.thumbnail = C:\xampp\htdocs\swfs\camera\thumbnails\`
 
 `camera.enabled = 1`
 
